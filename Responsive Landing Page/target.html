@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target</title>
+    <style>
+        .a1:hover{
+            color :blueviolet;
+            text-decoration : none;
+            font-size : 20px;
+        }
+        .ulist{
+            border:2px solid black;
+        }
+        .li{
+            border:2px solid yellow;
+        }
+        td,th{
+            text-align:center;
+        }
+        table{
+            border-collapse:collapse;
+        }
+        tbody th{
+            background-color:deeppink;
+            color:white;
+        }
+        colgroup{
+            width:80px;
+        }
+        colgroup.cg1 col{
+            border-right:2px;
+        }
+        colgroup col.pink{
+            background-color:rgb(47, 253, 44);
+        }
+        colgroup.cg2{
+            border-left:2px solid white;
+            border-right:2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Breakfast Flights</caption>
+        
+        <colgroup class="cg1"><col></colgroup>
+        <colgroup class="cg2">
+            <col class="pink">
+            <col>
+            <col class="pink">
+        </colgroup>
+        <colgroup class="cg3">
+            <col>
+            <col class="pink">
+        </colgroup>
+
+        <thead><tr><th colspan="6">Important Notice</th></tr></thead>
+        <tbody>
+            <tr><th></th><th>American<br>Airlines</th><th>Delta<br>Airlines</th><th>Alaska<br>Airlines</th><th>United</th><th>Continental</th></tr>
+            <tr><th>Departure</th><td>08:30</td><td>07:00</td><td>07:30</td><td>07:55</td><td>08:35</td></tr>
+            <tr><th>Arrival</th><td>12:05</td><td>10:30</td><td>10:45</td><td>11:30</td><td>12:00</td></tr>
+            <tr><th>Duration</th><td>08:30</td><td>07:00</td><td>07:30</td><td>07:55</td><td>08:35</td></tr>
+            <tr><th>Price</th><td>08:30</td><td>07:00</td><td>07:30</td><td>07:55</td><td>08:35</td></tr>
+        </tbody>
+        <tfoot><tr><td style="text-align:center;" colspan="6">ThankYou !!!</td></tr></tfoot>
+    </table>
+
+</body>
+</html>
